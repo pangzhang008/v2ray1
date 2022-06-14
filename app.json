@@ -1,0 +1,31 @@
+{
+  "name": "Heroku_v2ray",
+  "description": "yiluohan1234's v2",
+  "keywords": [
+    ""
+  ],
+  "repository": "https://github.com/yiluohan1234/Heroku_v2ray",
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/Luo37",
+      "required": true
+    }
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
